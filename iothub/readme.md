@@ -24,8 +24,6 @@ Install Azure IoT VSCode Extensions - The ultimate collection of extensions for 
 
 **Azure IoT Tools** Extension will install 3 extensions
 
-Azure IoT supports 3 extensions
-
 1. **Azure IoT Edge Tools** makes it easy to code, build, deploy, and debug your IoT Edge solutions.
 
     * Create new Azure IoT Edge project
@@ -52,7 +50,7 @@ Azure IoT supports 3 extensions
 ### Sign-in to Azure
 
 ```editor
-Press (Control + Shift + P) in VSCode editor.
+Press (Control + Shift + P) in VSCode editor or hit F1
 Enter >Azure:Sign in to Azure Cloud
 ```
 
@@ -79,6 +77,11 @@ Sign in to Azure.
 Once successfully signed-in to Azure 
 
 1. Create IoT Hub 
+
+```editor
+Press (Control + Shift + P) in VSCode editor or hit F1
+Enter >Azure IoT Hub: Create IoT Hub
+```
 
 ![Create IoT Hub](/iothub/images/13_azure_create_iothub.png)
 
