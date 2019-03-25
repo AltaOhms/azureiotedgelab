@@ -1,4 +1,4 @@
-# Create Azure IoT Hub using VSCode
+# Create Azure IoT Hub using Visual Studio Code
 
 ## Overview
 
@@ -9,7 +9,7 @@
 * Command and control of devices.
 * Device security enforcement.
 
-### Install VSCode Editor
+### Install Visual Studio Code Editor
 
 If you have not installed VSCode, Click [here](https://code.visualstudio.com/) and download the IDE based on your machine OS. macOS, Windows and Linux are supported.
 
@@ -22,7 +22,7 @@ Install Azure IoT VSCode Extensions - The ultimate collection of extensions for 
 ![Extensions](/iothub/images/06_extensions.png)
 
 
-**Azure IoT Tools** Extension will install 3 extensions
+**Azure IoT Tools** Extension will install 3x extensions
 
 1. **Azure IoT Edge Tools** makes it easy to code, build, deploy, and debug your IoT Edge solutions.
 
