@@ -6,11 +6,6 @@ Use a preconfigured virtual machine to get started quickly, and easily automate 
 
 This **Ubuntu Server 16.04 LTS** based virtual machine will install the latest Azure IoT Edge runtime and its dependencies on startup, and makes it easy to connect to your IoT Hub.
 
-Connect this VM to your IoT Hub by setting the connection string with the run command feature (via Azure portal or command line interface) to execute:
-
-```Linux
-/etc/iotedge/configedge.sh  "<your_iothub_edge_connection_string>"
-```
 
 ## Steps to Create VM
 
