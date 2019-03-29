@@ -1,4 +1,4 @@
-## Build Azure Fucntion Module for Edge
+## Build Azure Function Module for Edge
 
 ### Install .NET Core
 
@@ -129,7 +129,7 @@ The Azure IoT Edge extension for Visual Studio Code that you installed provides 
     ![Container Registry Credentials](images/14_containerregistry_accesskeys.png)
 
 
-11. Replace the contents of the **FilterFunction.cs** file with the following code. Temperature Threshhold has been set to 20. When machine.temparature goes above threshhold message is output
+11. Replace the contents of the **FilterFunction.cs** file with the following code. Temperature Threshold has been set to 20. When machine.temperature goes above threshold message is output
 
     ```csharp
     using System;
@@ -202,7 +202,7 @@ The Azure IoT Edge extension for Visual Studio Code that you installed provides 
 
 11. Save the changes to the of the **FilterFunction.cs** file.
 
-12. If your project shows error do a **dotnet restore**. Open a terminal and go to your project modules folder and type in **dotnet restore**. Once done close the FilterFunction.cs file and reopen. 
+12. If your project shows an error do a **dotnet restore**. Open a terminal and go to your project modules folder and type in **dotnet restore**. Once done close the FilterFunction.cs file and reopen. 
 
     ![Container Registry Credentials](images/15_dotnet_restore.png)
 
@@ -210,7 +210,7 @@ The Azure IoT Edge extension for Visual Studio Code that you installed provides 
 
 14. Sign in to your container registry by entering the following command in the integrated terminal. 
 
-    Use the username and login server that you copied from your Azure container registry earlier.
+    Use the username and login server that you copied from your Azure container registry earlier. (Hint: You retrieved them in Step 11).
 
     ```shell
     docker login -u <ACR username> <ACR login server>
