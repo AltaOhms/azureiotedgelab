@@ -157,7 +157,7 @@ For this task, you deploy two modules. The first is the **tempsensor** module we
 
 4. In the list of **IoT Edge devices**, select your device.
 
-    The **Device Details** pane will be displayed. At the bottom of this pane you will see the list of deployed modules. At this point in the lab you should see 4 listed.
+    The **Device Details** pane will be displayed. At the bottom of this pane you will see the list of deployed modules. At this point in the lab you should see 3 listed, so let's deploy the 4th.
 
 5. On the **Device Details** pane, in the toolbar, click **Set modules**.
 
