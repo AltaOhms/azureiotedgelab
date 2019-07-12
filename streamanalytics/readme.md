@@ -209,7 +209,6 @@ For this task, you deploy two modules. The first is the **tempsensor** module we
     {
     "routes": {
         "telemetryToCloud": "FROM /messages/modules/tempsensor/* INTO $upstream",
-        "alertsToCloud": "FROM /messages/modules/rvasa/* INTO $upstream",
         "alertsToReset": "FROM /messages/modules/rvasa/* INTO BrokeredEndpoint(\"/modules/tempsensor/inputs/control\")",
         "telemetryToAsa": "FROM /messages/modules/tempsensor/* INTO BrokeredEndpoint(\"/modules/rvasa/inputs/temperature\")"
         }
