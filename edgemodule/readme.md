@@ -33,16 +33,30 @@ In the Add Modules step of the wizard, find the Deployment Modules section. Clic
 
 Use the Temperature Sensor Simulator pre-built module.
 
-In the Name field, enter tempsensor.
+In the Name field, enter **tempsensor**.
 
-In the Image URI field, enter mcr.microsoft.com/azureiotedge-simulated-temperature-sensor:1.0.
+In the Image URI field, enter **asaedgedockerhubtest/asa-edge-test-module:simulated-temperature-sensor**.
 
+Check the **Set module twin's desired properties** checkbox and enter the following in the text box.
+
+```json
+    {
+        "properties.desired": {
+            "EnableProtobufSerializer": false,
+            "EventGeneratingSettings": {
+            "IntervalMilliSec": 500,
+            "PercentageChange": 2,
+            "SpikeFactor": 2,
+            "StartValue": 20,
+            "SpikeFrequency": 20
+            }
+        }
+    }
+```
 Leave the other settings unchanged, and select Save.
 
-**Note:** Module will send 500 messages, you will have to restart the module to resend the messages. You can add an envirnment variable MessageCount to the number of messages that should be sent (set it to -1 to send unlimited messages)
 
-
-![Temp Sensor](/edgemodule/images/04_edge_tempsensor.png)
+![Temp Sensor](/edgemodule/images/tempsensor-module.png)
 
 In the Specify Routes step of the wizard, you should have a default route that sends all messages from all modules to IoT Hub. If not, add the following code then Click **Next**
 
@@ -51,14 +65,14 @@ In the Specify Routes step of the wizard, you should have a default route that s
 ```json
 {
     "routes": {
-        "route": "FROM /messages/* INTO $upstream"
+        "telemetryToCloud": "FROM /messages/modules/tempsensor/* INTO $upstream"
     }
 }
 ```
 
 In the Review Deployment step of the wizard, select Submit.
 
-![routes](/edgemodule/images/06_edge_module_routes.png)
+![routes](/edgemodule/images/module-route.png)
 
 Click **Submit**
 
