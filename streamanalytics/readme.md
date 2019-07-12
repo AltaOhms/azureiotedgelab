@@ -111,8 +111,8 @@ When you create an Azure Stream Analytics job to run on an IoT Edge device, it n
         alert 
     FROM 
         temperature TIMESTAMP BY timeCreated 
-    GROUP BY TumblingWindow(second,30) 
-    HAVING Avg(machine.temperature) > 70
+    GROUP BY TumblingWindow(second,15) 
+    HAVING Avg(machine.temperature) > 25
     ```
 
 22. At the top of the **Query** pane, in the toolbar, click **Save** and (if prompted) click **Yes**.
