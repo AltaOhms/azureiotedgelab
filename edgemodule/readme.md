@@ -56,7 +56,7 @@ Check the **Set module twin's desired properties** checkbox and enter the follow
 Leave the other settings unchanged, and select Save.
 
 
-![Temp Sensor](/edgemodule/images/tempsensor-module.png)
+![Temp Sensor](images/tempsensor-module.png)
 
 In the Specify Routes step of the wizard, you should have a default route that sends all messages from all modules to IoT Hub. If not, add the following code then Click **Next**
 
@@ -72,7 +72,7 @@ In the Specify Routes step of the wizard, you should have a default route that s
 
 In the Review Deployment step of the wizard, select Submit.
 
-![routes](/edgemodule/images/module-route.png)
+![routes](images/module-route.png)
 
 Click **Submit**
 
