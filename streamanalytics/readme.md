@@ -198,7 +198,7 @@ For this task, you deploy two modules. The first is the **tempsensor** module we
     ```json
     {
      "routes": {
-        "route": "FROM /messages/* INTO $upstream"
+        "telemetryToCloud": "FROM /messages/modules/tempsensor/* INTO $upstream"
         }
     }
     ```
