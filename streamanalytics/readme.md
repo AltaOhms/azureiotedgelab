@@ -4,7 +4,7 @@
 
 Azure IoT Edge and Azure Stream Analytics are integrated so that you can create an Azure Stream Analytics job in the Azure portal and then deploy it as an IoT Edge module with no additional code.
 
-The Stream Analytics module in this task calculates the average temperature over a rolling 30-second window. When that average reaches 70, the module sends an alert for the device to take action. In this case, that action is to reset the simulated temperature sensor. 
+The Stream Analytics module in this task calculates the average temperature over a rolling 15-second window. When that average reaches 25, the module sends an alert for the device to take action. In this case, that action is to reset the simulated temperature sensor. 
 
 ### Create an Azure Stream Analytics job
 
