@@ -23,7 +23,7 @@ Before setting up the Stream Analytics job, the simulated IoT device needs to be
         "IntervalMilliSec": 500,
         "PercentageChange": 0,
         "SpikeFactor": 2,
-        "StartValue": 5,
+        "StartValue": 20,
         "SpikeFrequency": 20
       }
    ```
