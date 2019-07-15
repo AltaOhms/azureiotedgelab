@@ -20,11 +20,11 @@ Before setting up the Stream Analytics job, the simulated IoT device needs to be
 
     ```json
     "EventGeneratingSettings": {
-        "IntervalMilliSec": 1000,
+        "IntervalMilliSec": 500,
         "PercentageChange": 0,
         "SpikeFactor": 2,
-        "StartValue": 60,
-        "SpikeFrequency": 30
+        "StartValue": 5,
+        "SpikeFrequency": 20
       }
    ```
 
