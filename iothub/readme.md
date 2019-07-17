@@ -83,7 +83,7 @@ Press (Control + Shift + P) in VSCode editor or hit F1
 Enter >Azure IoT Hub: Create IoT Hub
 ```
 
-![Create IoT Hub](/iothub/images/13_azure_create_iothub.png)
+![Create IoT Hub](images/13_azure_create_iothub.png)
 
 2. Select the subscription you would like to use for this lab.
 
