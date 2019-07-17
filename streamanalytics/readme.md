@@ -264,4 +264,4 @@ For this task, you deploy two modules. The first is the **tempsensor** module we
 
     ![Module Lust](images/12_reset.png)
 
-
+Continue on the the next module: [Module 6 - Anomaly Detection using Azure Stream Analytics](https://hellotechie.github.io/azureiotedgelab/streamanalytics-ad/)
