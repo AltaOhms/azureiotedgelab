@@ -108,3 +108,5 @@ An IoT Hub will be created for you.
 Go To Azure portal to verify IoT Hub creation
 
 ![IoT Hub](images/05_iothub_overview.png)
+
+ Continue on to the next part of the lab: [Module 3: Deploy Azure IoT Edge Enabled Linux VM](https://hellotechie.github.io/azureiotedgelab/marketplacedeployment/)
