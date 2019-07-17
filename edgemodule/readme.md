@@ -21,15 +21,15 @@ A three-step wizard opens in the portal, which guides you through
     * reviewing the deployment.
 
 Under Explorer select **IoT Edge** and select Edge Device
-![Edge Device](/edgemodule/images/01_iot_edge_device.png)
+![Edge Device](images/01_iot_edge_device.png)
 
 Click on **Set Modules**
 
-![Set Modules](/edgemodule/images/02_iot_edge_set_modules.png)
+![Set Modules](images/02_iot_edge_set_modules.png)
 
 In the Add Modules step of the wizard, find the Deployment Modules section. Click Add then select IoT Edge Module.
 
-![Add Edge Module](/edgemodule/images/03_edge_module.png)
+![Add Edge Module](images/03_edge_module.png)
 
 Use the Temperature Sensor Simulator pre-built module.
 
@@ -60,7 +60,7 @@ Leave the other settings unchanged, and select Save.
 
 In the Specify Routes step of the wizard, you should have a default route that sends all messages from all modules to IoT Hub. If not, add the following code then Click **Next**
 
-![Modules Runing](/edgemodule/images/05_edge_module_running.png)
+![Modules Runing](images/05_edge_module_running.png)
 
 ```json
 {
@@ -76,7 +76,7 @@ In the Review Deployment step of the wizard, select Submit.
 
 Click **Submit**
 
-![Submit](/edgemodule/images/07_edge_module_submit.png)
+![Submit](images/07_edge_module_submit.png)
 
 Return to the device details page and select **Refresh**.
 
@@ -84,7 +84,7 @@ In addition to the **edgeAgent** module that was created when you first started 
 
 It may take a few minutes for the new modules to show up. The IoT Edge device has to retrieve its new deployment information from the cloud, start the containers, and then report its new status back to IoT Hub.
 
-![modules](/edgemodule/images/08_edge_module_deployed.png)
+![modules](images/08_edge_module_deployed.png)
 
 SSH into Linux VM and list the modules. You will see the 3 modules deployed on to the edge device. Use command
 
@@ -92,7 +92,7 @@ SSH into Linux VM and list the modules. You will see the 3 modules deployed on t
 iotedge list
 ```
 
-![modules](/edgemodule/images/09_edge_deployed_modules.png)
+![modules](images/09_edge_deployed_modules.png)
 
 Look at tempSensor module logs, you will see telemetry being sent to the cloud
 
@@ -100,10 +100,12 @@ Look at tempSensor module logs, you will see telemetry being sent to the cloud
 iotedge logs tempsensor
 ```
 
-![telemetry](/edgemodule/images/10_edge_telemetry.png)
+![telemetry](images/10_edge_telemetry.png)
 
  **Note**: tempsensor module will stop sending messages after 500 messages have been sent. You can restart it using the following command:
 
     ```shell
     iotedge restart tempsensor
     ```
+
+Continue on to the next part of the lab: [Module 5 - Deploy Azure Stream Analytics on Edge](https://hellotechie.github.io/azureiotedgelab/streamanalytics/)
