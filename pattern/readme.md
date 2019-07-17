@@ -33,3 +33,5 @@ Steps involved in building this pattern include
 5. Deployment manifest and associated containers are deployed to the edge device to capture insights and take actions.
 
     ![IoT Edge Pattern](/images/06_iot_edge_deployment_complete.png)
+    
+  Continue on to the next part of the lab: [Create an IoT Hub](https://hellotechie.github.io/azureiotedgelab/iothub/)
