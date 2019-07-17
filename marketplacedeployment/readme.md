@@ -13,13 +13,13 @@ This **Ubuntu Server 16.04 LTS** based virtual machine will install the latest A
 
     ![Azure IoT Edge VM](images/01_marketplace_offering.png)
 
-2. Click **Get It Now** button and click **Continue** on the browser
+2. Click **Get It Now** button and click **Continue** on the browser. Please note: You might need to sign in.
     ![Azure IoT Edge VM](images/02_get_it_now_continue.png)
 
-3. Logs your into Azure portal. Click **Create** button
+3. Logs you into Azure portal. Click **Create** button
     ![Azure IoT Edge VM](images/03_create_vm.png)
 
-4. Provide Subscription details and resource group. Also select password radio button and provide user and password to use later
+4. Provide Subscription details and resource group. Give your VM an unique name. Also, select password radio button and provide user and password to use later
     ![Azure IoT Edge VM](images/04_create_vm_details.png)
 
    Allow SSH ports by selecting the inbound ports radio button
@@ -32,11 +32,11 @@ This **Ubuntu Server 16.04 LTS** based virtual machine will install the latest A
 
 7. Click on **Go To Resource** button
 
-8. Click on **Connect** button and copy the ssh command
+8. Click on **Connect** button and copy the ssh command. This allows us to connect to our VM. 
 
     ![Azure IoT Edge VM](images/07_connect_ssh.png)
 
-9. Click on **Cloud Shell icon**, opens a cloud shell on the browser. Copy the ssh command and press enter or you can use **shell.azure.com** in your browser
+9. Click on **Cloud Shell icon** (Located on the top right section of the portal), opens a cloud shell browser. Copy the ssh command and press enter or you can use **shell.azure.com** in your browser
 
     ![Azure IoT Edge VM](images/08_cloud_shell_ssh.png)
 
@@ -48,19 +48,22 @@ This **Ubuntu Server 16.04 LTS** based virtual machine will install the latest A
 
     ![Shell](images/19_storage_mount.png)
 
-    You will get a prompt
+    You will get a prompt 
 
     ![Shell](images/20_shell_created.png)
 
 
-
+In the Azure Cloud Shell add your SSH login infomation you just copied. Right click and select paste to paste ssh login command. 
 
     ```Linux
     ssh iotedgeadmin@<Your VM IP>
     ```
-    Provide pasword and press **Enter**
+    
+    
+    
+    Provide your VM pasword you gave when you created the VM and press **Enter**
 
-10. Confirm Azure Edge Runtime is installed on the VM
+10. Confirm Azure Edge Runtime is installed on the VM by entering the following command:
 
     ```Linux
     iotedge version
@@ -72,17 +75,19 @@ This **Ubuntu Server 16.04 LTS** based virtual machine will install the latest A
 
 Use VSCode to create Edge Device.
 
-    ```Editor
-    Control + Shift + P
-
-    Search for Azure IoT Edge tools
-
-    > Azure IoT Edge Create IoT Edge
-    ```
 
 #### Add Edge Device
 
 Select Create Edge Device option
+
+
+    ```editor
+    Press Control + Shift + P in the VSCode editor
+
+    Search for:
+
+    > Azure IoT Edge Create IoT Edge
+    ```
 
 ![Add Device](images/10_create_edge_device.png)
 
@@ -107,7 +112,7 @@ Enter >Azure IoT Hub
 
 ```
 
-Select **Copy IoTHub Device Connection String** option
+Select **Copy IoT Hub Device Connection String** option
 
 ![Connection String](images/13_device_connection_string.png)
 
