@@ -19,7 +19,7 @@ Open VSCode Editor.
 
 Install **Azure IoT Tools** VSCode Extension - The ultimate collection of extensions for working with Azure IoT in VS Code. 
 
-![Extensions](iothub/images/06_extensions.png)
+![Extensions](https://github.com/HelloTechie/azureiotedgelab/blob/master/iothub/images/06_extensions.png)
 
 
 **Azure IoT Tools** Extension will install 3x extensions. This means you will not have to install each of the following extensions individually. 
