@@ -86,7 +86,7 @@ It may take a few minutes for the new modules to show up. The IoT Edge device ha
 
 ![modules](images/08_edge_module_deployed.png)
 
-SSH into Linux VM and list the modules. You will see the 3 modules deployed on to the edge device. Use command
+In the Cloud Shell, SSH into Linux VM and list the modules. You will see the 3 modules deployed on to the edge device. Use command
 
 ```linux
 iotedge list
