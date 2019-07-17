@@ -19,7 +19,7 @@ Open VSCode Editor.
 
 Install **Azure IoT Tools** VSCode Extension - The ultimate collection of extensions for working with Azure IoT in VS Code. 
 
-![Extensions](https://github.com/HelloTechie/azureiotedgelab/blob/master/iothub/images/06_extensions.png)
+![Extensions](/images/06_extensions.png)
 
 
 **Azure IoT Tools** Extension will install 3x extensions. This means you will not have to install each of the following extensions individually. 
@@ -56,15 +56,15 @@ Enter >Azure:Sign in to Azure Cloud
 
 Select Sign In to Azure Cloud
 
-![Sign In](/iothub/images/10_azure_signin.png)
+![Sign In](images/10_azure_signin.png)
 
 Select Your Azure Cloud
 
-![Sign In](/iothub/images/11_azure.png)
+![Sign In](images/11_azure.png)
 
 If you have not signed-in into Azure from VSCode you will be presented with a dialog to sign in to Azure.
 
-![Sign In](/iothub/images/02_signing_to_iothub.png)
+![Sign In](images/02_signing_to_iothub.png)
 
 A browser URL and code will be provided. Click **Copy**, go to browser and type URL: http://microsoft.com/devicelogin and paste the code in the browser. You will be asked to sign in with your Azure credentials.
 
@@ -72,7 +72,7 @@ A browser URL and code will be provided. Click **Copy**, go to browser and type 
 
 Sign in to Azure. 
 
-![Azure Signin](/iothub/images/12_azure_signin.png)
+![Azure Signin](images/12_azure_signin.png)
 
 Once successfully signed-in to Azure 
 
@@ -87,15 +87,15 @@ Enter >Azure IoT Hub: Create IoT Hub
 
 2. Select the subscription you would like to use for this lab.
 
-![Select Subscription](/iothub/images/03_select_subscription.png)
+![Select Subscription](images/03_select_subscription.png)
    
 3. Create a resource group or select an existing resource group.
 
-![Create Resource Group ](/iothub/images/14_create_resourcegroup.png)
+![Create Resource Group ](images/14_create_resourcegroup.png)
  
 4. Select the region in which you would like to create the IoT Hub
 
-![Select Region](/iothub/images/15_select_region.png)
+![Select Region](images/15_select_region.png)
 
 5. Select Pricing and scale tier. For this lab you can select a **Standard** Tier (S1).
    
@@ -103,8 +103,8 @@ Enter >Azure IoT Hub: Create IoT Hub
 
 An IoT Hub will be created for you.
 
-![Create IoT hub](/iothub/images/04_iothub_creation.png)
+![Create IoT hub](images/04_iothub_creation.png)
 
 Go To Azure portal to verify IoT Hub creation
 
-![IoT Hub](/iothub/images/05_iothub_overview.png)
+![IoT Hub](images/05_iothub_overview.png)
