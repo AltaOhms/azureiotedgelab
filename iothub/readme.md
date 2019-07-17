@@ -105,7 +105,7 @@ An IoT Hub will be created for you.
 
 ![Create IoT hub](images/04_iothub_creation.png)
 
-Go To Azure portal to verify IoT Hub creation
+Go To [Azure portal](https://portal.azure.com/) to verify IoT Hub creation
 
 ![IoT Hub](images/05_iothub_overview.png)
 
