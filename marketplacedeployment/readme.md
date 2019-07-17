@@ -23,7 +23,7 @@ This **Ubuntu Server 16.04 LTS** based virtual machine will install the latest A
     ![Azure IoT Edge VM](images/04_create_vm_details.png)
 
    Allow SSH ports by selecting the inbound ports radio button
-    ![Azure IoT Edge VM](/marketplacedeployment/images/05_allow_ssh_port.png)
+    ![Azure IoT Edge VM](images/05_allow_ssh_port.png)
 
 5. Validation process happens and a web page is presented. Click **Create** button.
 
